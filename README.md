@@ -8,6 +8,8 @@
 ## Crontab Guru
 [crontab guru](https://crontab.guru/)  
 
+## Instructions
+
 ```bash
 mkdir edu-backend-schedule
 cd edu-backend-schedule
@@ -16,6 +18,10 @@ touch server.js
 mkdir src
 mkdir __test__
 touch ./src/schedule.js
+npm install express
+npm install node-cron
+npm install nodemon --save-dev
+npm install jest --save-dev
 ```
 
 ## package.json

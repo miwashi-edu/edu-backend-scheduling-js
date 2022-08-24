@@ -33,8 +33,8 @@ npm install jest --save-dev
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node run server.js",
-    "dev": "nodemon run server.js",
+    "start": "node server.js",
+    "dev": "nodemon server.js",
     "test": "jest"
   },
   "repository": {
